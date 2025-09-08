@@ -38,7 +38,7 @@ I have organized everything into different folders so it’s easier to find and 
 ##  How to use
 1. Clone this repository  
    ```
-   git clone https://github.com/your-username/DSA-with-Cpp.git
+   git clone https://github.com/Amolraut638/DSA-with-Cpp.git
    ```
 - Open any folder and run the .cpp files in a C++ compiler (like GCC or VS Code).
 - Compile and check the outputs.
