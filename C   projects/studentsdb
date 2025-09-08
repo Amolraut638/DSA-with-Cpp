@@ -1,0 +1,7 @@
+Table: students
+	id (int)
+	name (string)
+	age (int)
+1	Alice	20	
+2	Bob	22	
+

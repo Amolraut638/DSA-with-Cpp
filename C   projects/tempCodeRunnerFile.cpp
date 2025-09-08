@@ -1,0 +1,1 @@
+table.data.erase(table.data.begin() + rowIndex);
