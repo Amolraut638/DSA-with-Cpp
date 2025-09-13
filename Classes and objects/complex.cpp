@@ -14,6 +14,8 @@ using namespace std;
         {
             cout<<"a="<<a<<" b="<<b<<endl;
         }
+
+        setdata(), showdata() functions are called as instanace member variables    
 };
 void f1()
 {
@@ -39,6 +41,8 @@ class complex
         complex add(complex);
 };
 
+//below functions ko class se bahar nikala, bahar hoke bhi unko member banana hoga to void complex:: aisa likhna pdta hain
+
 complex complex::add(complex C)  //C me c2 ka data aaya
 {
     complex temp;
@@ -55,7 +59,7 @@ void complex:: setdata(int x,int y)
 }  
 
 void complex:: showdata()
-{
+{   
     //cout<<"a="<<a<<" b="<<b<<endl;
     cout<<a<<" + "<<b<<"i"<<endl;
 }
