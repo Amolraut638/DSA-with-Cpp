@@ -22,4 +22,5 @@ int main()
     cin>>a>>b;
     cout<<"The HCF of "<<a<<" and "<<b<<" is :"<<hcf(a,b);
     return 0;
+    
 }

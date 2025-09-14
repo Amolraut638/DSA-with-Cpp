@@ -25,6 +25,7 @@ void sort(int A[],int size,bool asc)
         }
     }
 }
+
 int main()
 {
     int a[]={4,7,1,3,9,3,5,6,1,4,5};
