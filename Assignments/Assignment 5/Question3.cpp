@@ -6,16 +6,20 @@ float area(int);
 int area(int,int);
 float area(int,int,int);
 
+//Area of circle
 float area(int r)
 {
     return 3.14*r*r;
 }
 
+//Area of rectangle
 int area(int l,int b)
 {
     return l*b;
 }
 
+
+//area of triangle
 float area(int a,int b,int c)
 {
     float s,ar;
