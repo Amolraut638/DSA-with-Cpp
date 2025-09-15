@@ -12,7 +12,7 @@ class Item
         int getB() { return b; }   //IMV
         //void setK(int z) { k=z; }  //IMV
         //int getK() { return k;}   //IMV
-        static void setK(int z) { k=z; }  //static member variable
+        static void setK(int z) { k=z; }  //static member variable, 
         static int getK() { return k;}   //SMV
 };
 int Item::k;//it is neccessary to write this otherwise static int k variable will not be created

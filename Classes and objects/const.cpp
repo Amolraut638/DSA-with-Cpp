@@ -4,7 +4,7 @@ class product
 {
     private:
         int a,b,c;
-        const int k;  //const var ko bhi reference ki tarah declare karte time initialize karna compulsory hain.idher nhi kiya initializer ki help se karte hain
+        const int k;  //const var ko bhi reference ki tarah declare karte time initialize karna compulsory hain.idhar nhi kiya kyuki niche initializer ki help se kiya hain
     public:
         product(int x,int y,int z,int w):k(w)    //k ko initializer ki help se hi initialize karna padega
         {

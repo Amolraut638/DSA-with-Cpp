@@ -19,6 +19,7 @@ complex complex::operator+(complex C)  //C me c2 ka data aaya
     return temp;
 
 }
+ 
 complex complex::operator-()
 {
     complex temp;
@@ -27,7 +28,6 @@ complex complex::operator-()
     return temp;
     
 }
-
 
 void complex:: setdata(int x,int y) 
 {
@@ -48,7 +48,7 @@ void f1()
     //c1.showdata();
     c2.setdata(4,5);
     //c2.showdata();  
-    c3=c1+c2;//c3=c1.add(c2);   //isko function call by passing object bhi kehte hain.
+    c3=c1+c2;//c3=c1.add(c2);   //isko function call by passing object bhi kehte hain.c1 ne apne member operator + ko call kiya usme c2 as an argument pass kiya aur result c3 me store kiya 
     //idhar + binary operator hain to usko do operands lagenge pr humne ek hi diya hai c2 kyuki dusra caller object ke rup me already present hain (c1)
     c3.showdata();
     c4=-c3;//- unary operator hain to usko ek hi operand lagega to wo c3(caller object) hain i.e c3 ne - ko call kiya aur uska result c4 me rkha
@@ -65,5 +65,5 @@ int main()
 
 
 //we can write
-//cout<<x  means cout ne apne member operator(insertion) ko call kiya aur usme x as an argument pass kiya
-//cout.operator<<(x)==cout<<x;
+// cout<<x     means cout ne apne member operator(insertion) ko call kiya aur usme x as an argument pass kiya
+// cout.operator<<(x) == cout<<x;

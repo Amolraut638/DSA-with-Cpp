@@ -67,10 +67,11 @@ void complex:: showdata()
 void f1()
 {
     complex c1,c2,c3;      
-    c1.setdata(3,4); 
+    c1.setdata(3,4); //c1 ne setdata ko call kiya
     //c1.showdata();
     c2.setdata(5,6);
     //c2.showdata();  
+    //c3 = c1 + c2; //compiler ko pata nahi jab 2 complex type ki values add hoti hain to kya hota hai
     c3=c1.add(c2);   //function call by passing object and returning object
     //c1 ne add function ko call kiya usme c2 as an argument pass kiya aur uska result c3 me store kiya
     c3.showdata();

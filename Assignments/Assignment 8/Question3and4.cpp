@@ -45,8 +45,8 @@ class date
         } */
         string getMonthName(int monthNumber)
         {
-        string monthNames[] = {"January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"};
-        return monthNames[monthNumber - 1];
+            string monthNames[] = {"January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"};
+            return monthNames[monthNumber - 1];
         }
 
         void getData(int format=1)
