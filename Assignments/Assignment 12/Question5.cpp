@@ -56,9 +56,9 @@ class matrix
                 temp.A[i][j]=sum;
                 }
             return temp;
-        }
-    
+        }  
 };
+
 int main()
 {
     matrix m1,m2,m3,m4,m5;

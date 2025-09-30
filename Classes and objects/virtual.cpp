@@ -16,6 +16,7 @@ class B : public A
             cout<<"function of class B";
         }
 };
+
 int main()
 {
     A *p;

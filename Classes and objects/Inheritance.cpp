@@ -35,11 +35,11 @@ int main()
 }
 
 //how to modify a class?
-//using inheritance we modify a class we cannot directly change the actual coding of the class,each class has different identity
+//using inheritance we modify a class. we cannot directly change the actual coding of the class,each class has different identity
 //so we make another class and we inherit the properties of the old class to do changes in old class
 
 //when to use inheritance
-//1)jab bhi kisi class ko modify karna hain means properties and methods usme add karne ho pr add karne se wo ek nyi entity banani chahiye
+//1)jab bhi kisi class ko modify karna hain means properties and methods usme add karne ho pr add karne se wo ek nyi category/ entity banani chahiye
 //2)Jab do classes ki bich me is a relationship hoga tab hum inheritance karte hain
 
 //constructor and destructor inherit nhi hote hain

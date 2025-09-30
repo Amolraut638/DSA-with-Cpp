@@ -10,7 +10,7 @@ class product
         {
             cout<<"p1="<<p1<<" p2="<<p2<<" p3="<<p3<<endl;
         }
-        //friend void Dealer::Dost();  //agar dost funtion kisi dusre class ka member hain to yaha pe declare karte time membership operator lagake
+        //friend void Dealer::Dost();  //agar dost function kisi dusre class ka member hain to yaha pe declare karte time membership operator lagake
                                         //batana pdega ki wo konse class ka member hai 
         friend void Dost(product &);
 };

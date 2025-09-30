@@ -11,18 +11,18 @@ class complex
         friend complex operator-(complex);  //this is unary operator overloading
         complex operator+(int);
         friend complex operator+(int,complex);
-        friend ostream& operator<<(ostream&,complex);
-        friend istream& operator>>(istream&,complex&);  //for extraction operator we have to pass reference bcoz hum c1 me data rakhna chahte hain
+        friend ostream & operator<<(ostream &,complex);
+        friend istream & operator>>(istream &,complex &);  //for extraction operator we have to pass reference bcoz hum c1 me data rakhna chahte hain
                                                         //c1 ki value li to hum usme data nhi rkh sakte
 };
 
-istream& operator>>(istream& din,complex& X)
+istream & operator>>(istream & din, complex & X)
 {
     din>>X.a>>X.b;
     return din;
 }
 
-ostream& operator<<(ostream& dout,complex X)
+ostream & operator<<(ostream & dout, complex X)
 {
     dout<<"a="<<X.a<<" b="<<X.b<<" this a and b is from ostream";
     return dout;    

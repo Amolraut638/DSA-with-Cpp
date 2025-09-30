@@ -11,8 +11,8 @@ class Book
     public:
         Book()  //non-parameterized constructor
         {
-            Book_id=14534;
-            price=455.89;
+            Book_id = 14534;
+            price = 455.89;
             strcpy(title,"C fundamentals");
 
         }
@@ -31,7 +31,6 @@ class Book
             cout<<"Title="<<title<<endl;
             
         }
-    
 
 };
 

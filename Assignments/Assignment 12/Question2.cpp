@@ -41,6 +41,7 @@ int main()
     time t1,t2,t3;
     t1.setTime(5,34,22);
     t2.setTime(6,45,12);
+
     if(t1>t2)
         cout<<"t1 is greater than t2";
     else if(t2>t1) 

@@ -45,6 +45,7 @@ class time
             min=min%60;
             return temp;
         }
+        
         time operator++() //pre increment
         {
             sec++;
